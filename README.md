@@ -1,7 +1,7 @@
 flappybird game
 -------
-my first libgdx game.<br>
-**a clone of flappybird game**, use for practice libgdx.
+My first libgdx game,
+**a clone of flappybird game**, used for practicing libgdx.<br>
 libgdx
 ----
 cross platform game engine.
