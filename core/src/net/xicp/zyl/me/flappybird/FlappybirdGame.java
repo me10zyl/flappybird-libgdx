@@ -71,8 +71,8 @@ public class FlappybirdGame extends ApplicationAdapter {
 		batch = new SpriteBatch();
 		ground = new TextureRegion(new Texture("images/ground.png"),
 				GROUND_WIDTH, GROUND_HIGHT);
-		gameOverPanel = new TextureRegion(new Texture("images/gameover-panel.png"),349,177);
-		newTexture = new TextureRegion(new Texture("images/gameover-panel.png"),0,182,48,20);
+		gameOverPanel = new TextureRegion(new Texture("images/gameoverpanel.png"),349,177);
+		newTexture = new TextureRegion(new Texture("images/gameoverpanel.png"),0,182,48,20);
 		background = new Texture("images/bg1.png");
 		final Texture texture_ui = new Texture("images/ui.png");
 		gameover = new TextureRegion(texture_ui, 0, 95, texture_ui.getWidth(),
@@ -85,7 +85,7 @@ public class FlappybirdGame extends ApplicationAdapter {
 		}
 		for(int i = 0;i < 10;i++)
 		{
-			digital_small[i] = new TextureRegion(new Texture("images/digital-small.png"),i > 4 ? (i - 5) * 25 :25 * i,i > 4 ? 32 : 0,25,32);
+			digital_small[i] = new TextureRegion(new Texture("images/digitalsmall.png"),i > 4 ? (i - 5) * 25 :25 * i,i > 4 ? 32 : 0,25,32);
 		}
 		TextureRegion keyframe[] = new TextureRegion[3];
 		final Texture texture = new Texture("images/birds.png");

@@ -5,4 +5,7 @@ My first libgdx game,
 libgdx
 ----
 cross platform game engine.
-Windows,Linux,Android,iOS,HTML access.
+run in Windows,Linux,Android,iOS,HTML.
+Run
+-----
+Web: [http://zyl-me.xicp.net:1234/flappybird](http://zyl-me.xicp.net:1234/flappybird)
